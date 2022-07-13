@@ -22,6 +22,7 @@ namespace IRRCalculator3.Services
             double tax =_ITax.GetTax(user.SalaryBase.IRLevel);
             double valuepaid = salary * percrange - tax;
             return valuepaid;
+            //teste
 
         }
     }
