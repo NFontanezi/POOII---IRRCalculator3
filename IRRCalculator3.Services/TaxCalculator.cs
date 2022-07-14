@@ -6,8 +6,9 @@ namespace IRRCalculator3.Services
 {
     public class TaxCalculator : ITaxCalculator
     {
-        private ITax _ITax;
-        private IPercentualRange _IPercentualRange;
+        private readonly ITax _ITax;
+        private readonly IPercentualRange _IPercentualRange;
+        
 
         public TaxCalculator(ITax iTax, IPercentualRange iPercentualRange)
         {

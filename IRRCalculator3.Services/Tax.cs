@@ -4,7 +4,7 @@ using IRRCalculator3.Services.Interfaces;
 
 namespace IRRCalculator3.Services
 { 
-public class IRRTax : ITax
+public class Tax : ITax
 {
     private Dictionary<IRLevel, double> IRRTaxDic = new Dictionary<IRLevel, double>()
         {

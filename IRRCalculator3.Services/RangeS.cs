@@ -1,14 +1,14 @@
 ﻿
 using IRRCalculator3.Domain.Enum;
 using IRRCalculator3.Services.Interfaces;
-using IRRCalculator3.Domain.Enum;
+
 
 namespace IRRCalculator3.Services
 {
-    public class RangeSalary //: IRange
+    public class RangeS : IRange
     {
 
-        public static IRLevel GetRange(double salary)
+        public  IRLevel GetRange(double salary)
         {
             if (salary <= 22847.76)
                 return IRLevel.Level1;
