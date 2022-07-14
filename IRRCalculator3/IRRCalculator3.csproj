@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IRR3Calculator.Domain\IRRCalculator3.Domain.csproj" />
-    <ProjectReference Include="..\IRRCalculator3.Repository\IRRCalculator3.Repository.csproj" />
     <ProjectReference Include="..\IRRCalculator3.Services\IRRCalculator3.Services.csproj" />
   </ItemGroup>
 

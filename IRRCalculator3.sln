@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRRCalculator3", "IRRCalculator3\IRRCalculator3.csproj", "{90E4614E-2615-4CEE-A82A-D51214621C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRRCalculator3", "IRRCalculator3\IRRCalculator3.csproj", "{90E4614E-2615-4CEE-A82A-D51214621C0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRRCalculator3.Domain", "IRR3Calculator.Domain\IRRCalculator3.Domain.csproj", "{A2103891-4BCD-4744-9351-04CF66D84E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRRCalculator3.Domain", "IRR3Calculator.Domain\IRRCalculator3.Domain.csproj", "{A2103891-4BCD-4744-9351-04CF66D84E84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRRCalculator3.Services", "IRRCalculator3.Services\IRRCalculator3.Services.csproj", "{D367E9ED-6B1B-45A8-82F5-C5A841C6D9BC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRRCalculator3.Repository", "IRRCalculator3.Repository\IRRCalculator3.Repository.csproj", "{78AADE72-E980-4684-80FC-9E9E4A9542D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRRCalculator3.Services", "IRRCalculator3.Services\IRRCalculator3.Services.csproj", "{D367E9ED-6B1B-45A8-82F5-C5A841C6D9BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{D367E9ED-6B1B-45A8-82F5-C5A841C6D9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D367E9ED-6B1B-45A8-82F5-C5A841C6D9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D367E9ED-6B1B-45A8-82F5-C5A841C6D9BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{78AADE72-E980-4684-80FC-9E9E4A9542D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78AADE72-E980-4684-80FC-9E9E4A9542D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78AADE72-E980-4684-80FC-9E9E4A9542D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78AADE72-E980-4684-80FC-9E9E4A9542D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
